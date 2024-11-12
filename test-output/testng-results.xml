@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-12T11:52:01 EST" name="Suite" finished-at="2024-11-12T11:52:04 EST" duration-ms="2610">
+    <groups>
+    </groups>
+    <test started-at="2024-11-12T11:52:01 EST" name="Test" finished-at="2024-11-12T11:52:04 EST" duration-ms="2610">
+      <class name="orange_hrm.Sample_allure_demo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:orange_hrm.Sample_allure_demo@16ce702d]" started-at="2024-11-12T11:52:01 EST" name="setup" finished-at="2024-11-12T11:52:03 EST" duration-ms="1690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tnlogin()[pri:1, instance:orange_hrm.Sample_allure_demo@16ce702d]" started-at="2024-11-12T11:52:03 EST" name="tnlogin" finished-at="2024-11-12T11:52:03 EST" duration-ms="543" status="FAIL">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[Swag Labs]> but was:<[//*[@id="header_container"]/div[2]/span]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<[Swag Labs]> but was:<[//*[@id="header_container"]/div[2]/span]>
+at org.junit.Assert.assertEquals(Assert.java:117)
+at org.junit.Assert.assertEquals(Assert.java:146)
+at orange_hrm.Sample_allure_demo.tnlogin(Sample_allure_demo.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tnlogin -->
+        <test-method signature="Addingproducts()[pri:2, instance:orange_hrm.Sample_allure_demo@16ce702d]" started-at="2024-11-12T11:52:03 EST" name="Addingproducts" finished-at="2024-11-12T11:52:03 EST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addingproducts -->
+        <test-method signature="logout()[pri:3, instance:orange_hrm.Sample_allure_demo@16ce702d]" started-at="2024-11-12T11:52:03 EST" name="logout" finished-at="2024-11-12T11:52:04 EST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- orange_hrm.Sample_allure_demo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

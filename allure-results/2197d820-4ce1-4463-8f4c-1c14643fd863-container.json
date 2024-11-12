@@ -1,0 +1,1 @@
+{"uuid":"2197d820-4ce1-4463-8f4c-1c14643fd863","name":"orange_hrm.Sample_allure_demo","children":["426833cc-024f-4764-97d4-b113ddc17bc8"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1731429579634,"stop":1731429581380}],"afters":[],"start":1731429579607,"stop":1731429581813}
