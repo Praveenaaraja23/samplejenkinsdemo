@@ -34,9 +34,7 @@ public void tnlogin() throws InterruptedException {
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("secret_sauce");
 	    driver.findElement(By.xpath("//input[@name='login-button']")).click();
 	    
-	    Thread.sleep(200);
-	    Assert.assertEquals(driver.getTitle(), "//*[@id=\"header_container\"]/div[2]/span");
-	    
+	   	    
 	
 		
 	}

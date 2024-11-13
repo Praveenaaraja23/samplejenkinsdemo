@@ -32,7 +32,7 @@ public class organe_hrm_SD {
 	}
 
 	@When("user enters Street {int} details in street {int} field under Adress section in Orange HRM application")
-	public void user_enters_street_details_in_street_field_under_adress_section_in_orange_hrm_application(Integer street1, Integer instreet1t2) {
+	public void user_enters_street_details_in_street_field_under_adress_section_in_orange_hrm_application(Integer street1, Integer street1t2) {
 	   myinfo.street1();
        myinfo.street2();
 	}
